@@ -1,5 +1,5 @@
 package com.citas;
 
-public class Cliente {
+public class Reader {
 
 }
