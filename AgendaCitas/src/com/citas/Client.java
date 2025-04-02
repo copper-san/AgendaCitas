@@ -2,48 +2,47 @@ package com.citas;
 
 public class Client 
 {
-	private String DNI;
-	private String Nombre;
-	private String Apellido;
-	private String Telefono;
+	private String id;
+	private String name;
+	private String lastName;
+	private String phone;
 	
-	public Client(String DNI, String nombre, String apellido, String telefono) 
-	{
-		this.DNI = DNI;
-		this.Nombre = nombre;
-		this.Apellido = apellido;
-		this.Telefono = telefono;
+	public Client(String id, String name, String lastName, String phone) {
+		this.id = id;
+		this.name = name;
+		this.lastName = lastName;
+		this.phone = phone;
 	}
 
-	public String getDNI() {
-		return DNI;
+	public String getID() {
+		return id;
 	}
 
-	public void setDNI(String dNI) {
-		DNI = dNI;
+	public void setID(String id) {
+		this.id = id;
 	}
 
-	public String getNombre() {
-		return Nombre;
+	public String getName() {
+		return this.name;
 	}
 
-	public void setNombre(String nombre) {
-		Nombre = nombre;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public String getApellido() {
-		return Apellido;
+	public String getLastName() {
+		return this.lastName;
 	}
 
-	public void setApellido(String apellido) {
-		Apellido = apellido;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
-	public String getTelefono() {
-		return Telefono;
+	public String getPhone() {
+		return this.phone;
 	}
 
-	public void setTelefono(String telefono) {
-		Telefono = telefono;
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 }
